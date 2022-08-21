@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Kogane.Internal
 {
-    [FilePath( "UserSettings/DeviceSimulatorBookmarkSetting.asset", FilePathAttribute.Location.ProjectFolder )]
+    [FilePath( "UserSettings/Kogane/DeviceSimulatorBookmarkSetting.asset", FilePathAttribute.Location.ProjectFolder )]
     internal sealed class DeviceSimulatorBookmarkSetting : ScriptableSingleton<DeviceSimulatorBookmarkSetting>
     {
         [SerializeField] private List<string> m_deviceNames = new();
