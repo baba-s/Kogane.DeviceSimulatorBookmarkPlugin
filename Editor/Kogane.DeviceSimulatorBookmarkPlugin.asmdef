@@ -1,7 +1,11 @@
 {
-    "name": "UnityEditor.DeviceSimulation.Tests.Common",
+    "name": "Kogane.DeviceSimulatorBookmarkPlugin",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:c576dba25f0914715b45a37f2622ad43"
+    ],
     "includePlatforms": [
         "Editor"
     ],
